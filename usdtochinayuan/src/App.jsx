@@ -173,6 +173,41 @@ const ARTICLES = [
     summary:"China has dramatically expanded its visa-free policy. Here's the current status for US passport holders and what changed.",
     readTime:'5 min',
   },
+  {
+    id:'best-card',
+    title:'What Is the Best Card to Use in China in 2026?',
+    category:'Travel Tips', tag:'TOP PICK', tagColor:'#d4a853',
+    summary:"Most US cards get quietly hit with 3% foreign transaction fees in China. These four cards eliminate the fees entirely — and one even reimburses all ATM costs.",
+    readTime:'5 min',
+  },
+  {
+    id:'wechat-pay',
+    title:'How Does WeChat Pay Work for US Tourists in China?',
+    category:'Travel Tips', tag:'ESSENTIAL', tagColor:'#4caf82',
+    summary:"WeChat Pay is how nearly everyone in China pays for everything. US tourists can now link a Visa or Mastercard directly. Here's the step-by-step setup guide.",
+    readTime:'6 min',
+  },
+  {
+    id:'how-much-money',
+    title:'How Much Money Should I Bring to China for 2 Weeks?',
+    category:'Travel Planning', tag:'TRIP PREP', tagColor:'#c97d3a',
+    summary:"A full budget breakdown for a 2-week China trip — how much cash vs card, daily spending by city and travel style, and what actually costs more than you'd expect.",
+    readTime:'6 min',
+  },
+  {
+    id:'us-debit-card',
+    title:'Can I Use My US Debit Card in China?',
+    category:'Travel Tips', tag:'COMMON Q', tagColor:'#5ba8c4',
+    summary:"Yes — but with important caveats. Not all ATMs accept foreign cards, fees vary dramatically by bank, and UnionPay compatibility matters more than you think.",
+    readTime:'4 min',
+  },
+  {
+    id:'exchange-where',
+    title:'Is It Better to Exchange Money in the US or in China?',
+    category:'Money Transfer', tag:'STRATEGY', tagColor:'#4caf82',
+    summary:"The answer surprises most travelers. Exchanging at home almost always costs more — here's exactly where to get the best USD to CNY rate and why timing matters.",
+    readTime:'5 min',
+  },
 ]
 
 /* ══════════════════════════════════════════════════════════════════════════
@@ -357,6 +392,261 @@ const ARTICLE_CONTENT = {
       <p>When departing, you can take up to <strong>$5,000 USD equivalent</strong> in foreign currency out without restriction. If you declared more upon entry, you can take out what you brought in — keep your entry declaration form as proof. Converting leftover CNY back to USD must be done at authorized bank exchange points before you leave.</p>
     `,
   },
+  'best-card': {
+    title:'What Is the Best Card to Use in China in 2026?',
+    faq:[
+      { q:'What is the best credit card to use in China?', a:"The Chase Sapphire Reserve and Chase Sapphire Preferred are top choices — both charge zero foreign transaction fees, offer strong travel rewards, and are widely accepted at international hotels and larger merchants. For everyday spending in China, pair either with a Wise or Schwab debit card for ATM withdrawals." },
+      { q:'Does Visa or Mastercard work better in China?', a:"Both work at most international hotels, airports, and large retailers. However, many local restaurants, taxis, and small shops only accept UnionPay or mobile payments (WeChat Pay / Alipay). For day-to-day local spending, you need WeChat Pay or Alipay linked to your US card — Visa or Mastercard alone won't cover everything." },
+      { q:'Can I use American Express in China?', a:"American Express has very limited acceptance in mainland China compared to Visa and Mastercard. Stick to Visa or Mastercard for your backup card, and rely on WeChat Pay or Alipay for local spending." },
+    ],
+    content:`
+      <h2>The Short Answer</h2>
+      <p>For most US travelers to China in 2026, the ideal setup is a <strong>two-card + one app</strong> strategy: a no-foreign-transaction-fee credit card for hotels and larger purchases, a Charles Schwab or Wise debit card for ATM withdrawals, and WeChat Pay or Alipay for everything else.</p>
+      <p>No single card does it all in China — mobile payments dominate local commerce in a way that doesn't exist anywhere in the Western world. Planning for this layered approach before you leave saves significant money and prevents the panic of being cashless at a street food stall.</p>
+
+      <h2>Best Credit Cards for China Travel</h2>
+      <table>
+        <tr><th>Card</th><th>FTF</th><th>Annual Fee</th><th>Best For</th></tr>
+        <tr><td>Chase Sapphire Reserve</td><td>0%</td><td>$550</td><td>Hotels, flights, premium travel</td></tr>
+        <tr><td>Chase Sapphire Preferred</td><td>0%</td><td>$95</td><td>Best value travel card</td></tr>
+        <tr><td>Capital One Venture X</td><td>0%</td><td>$395</td><td>Simple 2x miles on everything</td></tr>
+        <tr><td>Discover it Miles</td><td>0%</td><td>$0</td><td>No annual fee option</td></tr>
+        <tr><td>Citi Premier</td><td>0%</td><td>$95</td><td>Strong points on dining</td></tr>
+      </table>
+
+      <h2>Best Debit Cards for ATM Withdrawals in China</h2>
+      <h3>1. Charles Schwab Investor Checking — Best Overall</h3>
+      <p>Schwab reimburses all ATM fees worldwide at the end of each month — including the fees charged by Chinese ATMs themselves. You get the interbank exchange rate with no markup. This is the single best card for withdrawing CNY in China. The account is free to open and requires no minimum balance.</p>
+
+      <h3>2. Wise Debit Card — Best Rate</h3>
+      <p>Wise uses the mid-market rate with a small, transparent conversion fee. You can hold CNY balance in your Wise account before traveling and spend directly from it. The card works at most Bank of China and ICBC ATMs. Two free withdrawals per month up to a limit.</p>
+
+      <h2>Why You Also Need WeChat Pay or Alipay</h2>
+      <p>In most Chinese cities, physical cards are rarely used for daily transactions. Street food, taxis, convenience stores, pharmacies, local restaurants, and even some tourist attractions only accept QR code payments. Both WeChat Pay and Alipay now accept US Visa and Mastercard as linked funding sources, making them accessible to tourists without a Chinese bank account.</p>
+      <p>Set up at least one of these apps before you leave home — the setup process is significantly smoother on a US connection than trying to do it in China.</p>
+
+      <h2>What to Avoid</h2>
+      <ul>
+        <li><strong>Any card with a foreign transaction fee</strong> — standard bank debit cards typically charge 1–3% per transaction and ATM fees on top</li>
+        <li><strong>Airport currency exchange desks</strong> — markups of 8–15% are standard</li>
+        <li><strong>Dynamic Currency Conversion</strong> — always pay in CNY, never USD, when given the choice at any terminal or ATM</li>
+        <li><strong>Traveler's checks</strong> — nearly impossible to use in modern China</li>
+      </ul>
+
+      <h2>Recommended Setup Before You Leave</h2>
+      <ol>
+        <li>Apply for a Chase Sapphire Preferred or Capital One Venture if you don't have a no-FTF card</li>
+        <li>Open a Charles Schwab checking account and order the debit card (allow 7–10 days for delivery)</li>
+        <li>Download WeChat and set up WeChat Pay with your US Visa or Mastercard</li>
+        <li>Notify all your banks of your China travel dates to prevent card blocks</li>
+        <li>Keep ¥500–1,000 cash on hand at all times as a backup</li>
+      </ol>
+    `,
+  },
+
+  'wechat-pay': {
+    title:'How Does WeChat Pay Work for US Tourists in China?',
+    faq:[
+      { q:'Can US tourists use WeChat Pay in China?', a:"Yes. As of 2023, WeChat Pay allows foreign visitors to link an international Visa, Mastercard, or American Express card directly to WeChat Pay without needing a Chinese bank account or phone number. This was a significant policy change that opened mobile payments to tourists for the first time." },
+      { q:'Do you need a Chinese phone number for WeChat Pay?', a:"No longer — foreign tourists can now set up WeChat Pay with an international phone number. However, you do need to complete identity verification within the app, which requires a passport scan and sometimes a selfie video." },
+      { q:'What is the WeChat Pay spending limit for tourists?', a:"Foreign card-linked WeChat Pay accounts have a spending limit of approximately ¥6,500 per day and ¥50,000 per year (roughly $900/day and $7,000/year). For most tourists, this is more than sufficient. The limit resets annually." },
+    ],
+    content:`
+      <h2>Why WeChat Pay Is Non-Negotiable in China</h2>
+      <p>China has become one of the most cashless societies on earth — but the cashless infrastructure runs almost entirely through two apps: WeChat Pay and Alipay. Physical credit cards are rarely accepted outside of international hotels and airports. Street food vendors, taxi drivers, supermarkets, pharmacies, and even some museums operate QR-code-only.</p>
+      <p>Until 2023, this was a major problem for foreign tourists who couldn't link international cards. That changed with a policy update from both Tencent (WeChat) and Ant Group (Alipay) that now allows foreign Visa and Mastercard to fund a WeChat Pay or Alipay wallet.</p>
+
+      <h2>How to Set Up WeChat Pay as a US Tourist</h2>
+      <h3>Step 1 — Download WeChat</h3>
+      <p>Download the WeChat app from the US App Store or Google Play. Create an account using your US phone number. Note: WeChat is blocked inside China without a VPN, so complete this setup <strong>before you leave the US</strong>.</p>
+
+      <h3>Step 2 — Access WeChat Pay</h3>
+      <p>Inside WeChat, tap the "Me" tab → Services → Wallet. You'll be prompted to set up WeChat Pay. Tap "Add a Card" and select "Overseas Bank Card."</p>
+
+      <h3>Step 3 — Add Your US Card</h3>
+      <p>Enter your Visa or Mastercard details. US-issued cards from major banks (Chase, Capital One, Bank of America, Citi) are accepted. American Express has limited compatibility — stick to Visa or Mastercard.</p>
+
+      <h3>Step 4 — Complete Identity Verification</h3>
+      <p>WeChat requires a passport scan and sometimes a short selfie video for foreign accounts. Have your passport ready. Verification typically takes a few minutes to a few hours.</p>
+
+      <h3>Step 5 — Top Up Your Wallet (Optional)</h3>
+      <p>You can load CNY directly into your WeChat Pay wallet from your linked card, or set it to charge the card directly per transaction. Loading a balance in advance can speed up payments.</p>
+
+      <h2>How to Pay in China with WeChat Pay</h2>
+      <p>In stores and restaurants, merchants display a QR code. Open WeChat → tap the "+" icon in the top right → "Scan" → scan the merchant's code → enter the amount → confirm. The payment goes through in under three seconds.</p>
+      <p>Alternatively, merchants can scan your personal payment QR code from inside WeChat Pay. Open WeChat → Me → Services → Wallet → Money → show your QR code to the cashier.</p>
+
+      <h2>WeChat Pay vs Alipay — Which Should You Use?</h2>
+      <table>
+        <tr><th>Feature</th><th>WeChat Pay</th><th>Alipay</th></tr>
+        <tr><td>Acceptance</td><td>Ubiquitous</td><td>Ubiquitous</td></tr>
+        <tr><td>Foreign card support</td><td>Yes (Visa/MC)</td><td>Yes (Visa/MC/Amex)</td></tr>
+        <tr><td>Daily limit (foreign)</td><td>~¥6,500</td><td>~¥50,000</td></tr>
+        <tr><td>Best for</td><td>Social + payments</td><td>Higher spending limits</td></tr>
+        <tr><td>Setup difficulty</td><td>Moderate</td><td>Moderate</td></tr>
+      </table>
+      <p>Set up <strong>both</strong> if possible. Some merchants accept only one. The 5 minutes it takes to install both apps is worthwhile insurance.</p>
+
+      <h2>Important: Install Before You Land</h2>
+      <p>WeChat, Google Play, and the App Store are all accessible in China, but the Great Firewall slows or blocks many downloads without a VPN. Complete the entire setup process — download, account creation, card linking, verification — while you're still in the US on a normal internet connection.</p>
+    `,
+  },
+
+  'how-much-money': {
+    title:'How Much Money Should I Bring to China for 2 Weeks?',
+    faq:[
+      { q:'How much does a 2 week trip to China cost?', a:"A 2-week China trip costs roughly $1,500–$2,500 USD for budget travelers, $3,000–$5,000 for mid-range, and $7,000–$15,000+ for luxury travel. These figures include accommodation, food, transport, activities, and incidentals — but not international flights." },
+      { q:'Is $100 a day enough for China?', a:"Yes — $100/day (about ¥720 CNY) is a comfortable mid-range daily budget in most Chinese cities outside of luxury experiences. It covers a nice hotel ($50–70), good meals ($15–20), local transport ($5–10), and activities ($10–15) with money to spare." },
+      { q:'How much cash should I carry in China?', a:"For most travelers, ¥500–1,000 CNY (about $70–140 USD) in physical cash is sufficient as a backup for small vendors, rural areas, and places that don't accept WeChat Pay. The vast majority of daily spending in cities can be handled through WeChat Pay or Alipay linked to your US card." },
+    ],
+    content:`
+      <h2>The 2-Week China Budget — By Travel Style</h2>
+      <p>China has an enormous range of costs depending on where you go, how you get around, and how you eat. Local food is extraordinarily affordable; Western comforts (imported groceries, international hotel chains, Western restaurants) cost similar to or more than US prices. The biggest factor is how "local" your travel style is.</p>
+
+      <table>
+        <tr><th>Category</th><th>Budget ($70/day)</th><th>Mid-Range ($120/day)</th><th>Luxury ($300+/day)</th></tr>
+        <tr><td>Accommodation</td><td>$20–35 (hostel/budget hotel)</td><td>$60–90 (3-star hotel)</td><td>$150–400 (5-star)</td></tr>
+        <tr><td>Food</td><td>$10–15 (local restaurants)</td><td>$25–35 (mix)</td><td>$60–100 (fine dining)</td></tr>
+        <tr><td>Transport</td><td>$8–12 (metro, bus)</td><td>$15–20 (metro + DiDi)</td><td>$30–50 (private car)</td></tr>
+        <tr><td>Activities</td><td>$8–12 (free sites + one paid)</td><td>$20–30</td><td>$50–100 (private tours)</td></tr>
+        <tr><td>Misc / snacks</td><td>$5–8</td><td>$10–15</td><td>$20–40</td></tr>
+        <tr><td><strong>2-Week Total</strong></td><td><strong>$980–$1,540</strong></td><td><strong>$1,820–$2,660</strong></td><td><strong>$4,200–$9,800</strong></td></tr>
+      </table>
+
+      <h2>City-by-City Cost Variation</h2>
+      <p>Where you go significantly affects your budget. Shanghai and Beijing are the most expensive, comparable to mid-tier European cities. Tier 2 cities like Chengdu, Xi'an, Guilin, and Hangzhou are 20–35% cheaper for accommodation and food.</p>
+      <table>
+        <tr><th>City</th><th>Daily Budget Est.</th><th>Known For</th></tr>
+        <tr><td>Shanghai</td><td>+20% vs average</td><td>Modern skyline, international food scene</td></tr>
+        <tr><td>Beijing</td><td>+15% vs average</td><td>Great Wall, Forbidden City, history</td></tr>
+        <tr><td>Chengdu</td><td>−15% vs average</td><td>Pandas, spicy food, relaxed pace</td></tr>
+        <tr><td>Xi'an</td><td>−20% vs average</td><td>Terracotta Warriors, Muslim Quarter</td></tr>
+        <tr><td>Guilin / Yangshuo</td><td>−10% vs average</td><td>Li River, karst mountains</td></tr>
+      </table>
+
+      <h2>What Costs More Than Expected</h2>
+      <ul>
+        <li><strong>International tourist attractions</strong> — the Great Wall, Forbidden City, and major museums charge more for foreign visitors at some ticket tiers</li>
+        <li><strong>Western food and imported goods</strong> — a bowl of pasta at a Western restaurant can cost as much as in New York</li>
+        <li><strong>VPN service</strong> — required to access Google Maps, Instagram, Gmail, and most Western apps. Budget $10–15 for a month of a reliable VPN (ExpressVPN, NordVPN)</li>
+        <li><strong>High-speed rail between cities</strong> — fast and comfortable, but 2nd class tickets for a 5-hour route run $40–$80 each way</li>
+      </ul>
+
+      <h2>How Much Cash to Carry</h2>
+      <p>Most spending in major Chinese cities can be done via WeChat Pay or Alipay linked to your US Visa or Mastercard. Physical cash is mainly useful for:</p>
+      <ul>
+        <li>Rural areas and small towns</li>
+        <li>Some older local restaurants and market stalls</li>
+        <li>Tipping at hotels (not common but appreciated)</li>
+        <li>Emergency backup if your phone dies or app fails</li>
+      </ul>
+      <p>A reasonable cash carry is <strong>¥1,000–2,000 CNY</strong> ($140–280 USD) at any given time — enough to cover 1–2 days of local spending without relying on apps or ATMs.</p>
+
+      <h2>Recommended Money Setup for 2 Weeks</h2>
+      <ol>
+        <li>Set up WeChat Pay with your US Visa or Mastercard before departure (primary spending method)</li>
+        <li>Bring a Charles Schwab debit card for fee-free ATM withdrawals to get CNY cash</li>
+        <li>Bring a no-foreign-transaction-fee credit card for hotels and larger purchases</li>
+        <li>Carry ¥1,000 CNY cash at all times as backup</li>
+        <li>Budget a daily buffer of 10–15% above your estimates for surprises</li>
+      </ol>
+    `,
+  },
+
+  'us-debit-card': {
+    title:'Can I Use My US Debit Card in China?',
+    faq:[
+      { q:'Can I use my US debit card in China?', a:"Yes, at most international ATMs — but not for point-of-sale purchases. Chinese merchants almost universally use WeChat Pay or Alipay for transactions. ATMs affiliated with Bank of China, ICBC, China Construction Bank, and HSBC reliably accept foreign Visa and Mastercard debit cards. Your bank will charge foreign transaction and ATM fees unless you use a fee-free card like Charles Schwab." },
+      { q:'Does Bank of America debit card work in China?', a:"Bank of America debit cards work at most major Chinese ATM networks. However, Bank of America charges a $5 flat international ATM fee plus a 3% foreign transaction fee. On a ¥2,000 withdrawal (about $280), you'd pay roughly $13–$14 in fees. A Schwab debit card would cost zero for the same withdrawal." },
+      { q:'What ATMs in China accept US cards?', a:"Bank of China (中国银行), ICBC (工商银行), China Construction Bank (建设银行), and HSBC China all reliably accept Visa and Mastercard debit cards. Look for ATMs that display the Visa, Mastercard, or Plus/Cirrus logos. Avoid small local bank ATMs — acceptance is inconsistent." },
+    ],
+    content:`
+      <h2>Yes — With Important Caveats</h2>
+      <p>US debit cards work in China, but the experience is very different from using a card at home. China's payment infrastructure runs primarily through WeChat Pay and Alipay — physical card terminals at the point of sale are rare outside of international hotels and some tourist-facing restaurants. Your debit card's main role in China is <strong>withdrawing CNY cash from ATMs</strong>, not swiping at shops.</p>
+
+      <h2>Which ATMs Accept US Debit Cards</h2>
+      <p>The following bank ATMs reliably process foreign Visa and Mastercard debit cards:</p>
+      <ul>
+        <li><strong>Bank of China (中国银行)</strong> — most reliable, widest network, specifically experienced with foreign cards</li>
+        <li><strong>ICBC (工商银行)</strong> — largest bank in China, ATMs in every city</li>
+        <li><strong>China Construction Bank (建设银行)</strong> — good acceptance rate</li>
+        <li><strong>HSBC China</strong> — excellent for international cards, fewer locations</li>
+        <li><strong>Citibank China</strong> — very reliable, limited branches</li>
+      </ul>
+      <p>Always look for the Visa, Mastercard, Plus, or Cirrus logo on the ATM before inserting your card. ATMs without these logos may reject foreign cards outright.</p>
+
+      <h2>The Fee Problem</h2>
+      <p>Standard US bank debit cards come with multiple layers of fees for international ATM use:</p>
+      <table>
+        <tr><th>Bank</th><th>ATM Fee</th><th>FX Markup</th><th>ATM Owner Fee</th><th>Total on $300 Withdrawal</th></tr>
+        <tr><td>Bank of America</td><td>$5 flat</td><td>3%</td><td>¥15–25 (~$2–3)</td><td>~$16–17</td></tr>
+        <tr><td>Wells Fargo</td><td>$5 flat</td><td>3%</td><td>¥15–25</td><td>~$16–17</td></tr>
+        <tr><td>Chase</td><td>$5 flat</td><td>3%</td><td>¥15–25</td><td>~$16–17</td></tr>
+        <tr><td>Charles Schwab</td><td>$0</td><td>0%</td><td>Reimbursed</td><td>$0</td></tr>
+        <tr><td>Wise Debit</td><td>$0 (2 free/mo)</td><td>~0.5%</td><td>$0</td><td>~$1.50</td></tr>
+      </table>
+
+      <h2>The Solution: Open a Schwab Account Before You Go</h2>
+      <p>The Charles Schwab Investor Checking account has no minimum balance, no monthly fees, and reimburses all ATM fees worldwide — including the fees charged by the ATM owner — at the end of each month. It's the universally recommended card for international travel, and China is no exception.</p>
+      <p>Apply online at schwab.com. The debit card arrives in 7–10 business days. Open the account at least two weeks before your trip.</p>
+
+      <h2>Daily Withdrawal Limits</h2>
+      <p>Most Chinese ATMs have a per-transaction limit of ¥2,500–5,000 CNY (about $350–700 USD). If you need more, make multiple withdrawals or visit a bank teller during business hours, where limits are higher. Your US bank also has its own daily withdrawal limits — check and temporarily raise them before traveling if needed.</p>
+
+      <h2>Always Select CNY at the ATM</h2>
+      <p>Chinese ATMs frequently offer to charge you in USD instead of CNY — a practice called Dynamic Currency Conversion (DCC). The ATM's USD rate is typically 5–8% worse than your bank's rate. <strong>Always select CNY.</strong> Always.</p>
+    `,
+  },
+
+  'exchange-where': {
+    title:'Is It Better to Exchange Money in the US or in China?',
+    faq:[
+      { q:'Should I exchange money before going to China?', a:"For most travelers, exchanging a small amount ($100–200 USD worth of CNY) before departure makes sense as emergency cash. Beyond that, exchanging money in China — either via ATM withdrawal with a fee-free card or through Wise — consistently offers better rates than exchanging at US banks or airport kiosks before your trip." },
+      { q:'Where is the best place to exchange USD to Chinese Yuan?', a:"The best rate for most people is withdrawing CNY directly from a Chinese ATM (Bank of China or ICBC) using a Charles Schwab debit card, which charges no fees and uses the interbank rate. For bank transfers, Wise consistently offers the closest to mid-market rate with the lowest fees." },
+      { q:'Can I exchange USD for CNY at a Chinese bank?', a:"Yes. Bank of China and ICBC branches exchange foreign currency at the official PBOC daily rate — one of the best rates available. You'll need your passport. The process takes 10–20 minutes and is reliable, though branch hours are limited to business days." },
+    ],
+    content:`
+      <h2>The Short Answer: Exchange in China (Usually)</h2>
+      <p>For most travelers, the best strategy is to <strong>arrive with a small amount of CNY</strong> for immediate needs (taxi from the airport, first meal), then withdraw the rest from a Chinese ATM using a fee-free card. Exchanging large amounts at US banks or airport kiosks before you leave costs significantly more.</p>
+
+      <h2>Why Exchanging in the US Usually Costs More</h2>
+      <p>US banks and exchange services set their own rates, which include a markup over the interbank (mid-market) rate. The typical markups:</p>
+      <table>
+        <tr><th>Where You Exchange</th><th>Typical Markup</th><th>Cost on $1,000</th></tr>
+        <tr><td>US airport kiosk</td><td>8–15%</td><td>$80–150 lost</td></tr>
+        <tr><td>US bank branch (e.g. BofA)</td><td>4–6%</td><td>$40–60 lost</td></tr>
+        <tr><td>AAA / exchange services</td><td>3–5%</td><td>$30–50 lost</td></tr>
+        <tr><td>Chinese bank branch (PBOC rate)</td><td>0–0.5%</td><td>$0–5 lost</td></tr>
+        <tr><td>Chinese ATM (Schwab card)</td><td>0%</td><td>$0 lost</td></tr>
+        <tr><td>Wise transfer</td><td>0.4–0.7%</td><td>$4–7 lost</td></tr>
+      </table>
+
+      <h2>The Best Options — Ranked</h2>
+      <h3>1. Chinese ATM with Charles Schwab Card — Best Rate</h3>
+      <p>Withdraw CNY from a Bank of China or ICBC ATM using a Schwab debit card. You get the interbank rate, Schwab charges no fees, and reimburses any ATM owner fees monthly. This is the single best way to get CNY for most travelers.</p>
+
+      <h3>2. Wise Bank Transfer — Best for Large Amounts</h3>
+      <p>If you need to move significant USD to a Chinese bank account, Wise uses the mid-market rate with a transparent fee of 0.4–0.7%. On $5,000, that's $20–35 total versus $200–300 through a US bank wire.</p>
+
+      <h3>3. Chinese Bank Branch — Good Backup</h3>
+      <p>Bank of China and ICBC use the official PBOC fixing rate, which is very competitive. Bring your passport, be prepared for paperwork, and go during business hours on weekdays. Useful if you need large amounts of physical cash that ATM limits won't accommodate in one visit.</p>
+
+      <h3>4. US Bank / Exchange Service — Last Resort</h3>
+      <p>Only use US-based exchange services if you absolutely must arrive with CNY cash (e.g., flying into a very small regional airport with no reliable ATMs). Exchange the minimum needed — $100–200 — and get the rest in China.</p>
+
+      <h2>When It Makes Sense to Exchange in the US</h2>
+      <ul>
+        <li>You need a small amount of CNY the moment you land (airport taxi, tip, first meal)</li>
+        <li>Your destination in China has limited ATM access (very rural areas)</li>
+        <li>You're traveling with elderly family members who prefer to have cash in hand from the start</li>
+      </ul>
+      <p>In these cases, exchange $100–200 maximum at a US credit union or AAA (better rates than banks), accept the small markup as a convenience fee, and get everything else in China.</p>
+
+      <h2>What About Chinese Airports?</h2>
+      <p>Chinese airport exchange counters use the official PBOC rate — significantly better than US airport kiosks. If you forget to withdraw cash before leaving a Chinese city, the airport exchange desk is a reasonable last option, not an emergency measure.</p>
+    `,
+  },
+
   'visa-free': {
     title:'Can US Citizens Travel to China Without a Visa in 2026?',
     faq:[
@@ -1071,6 +1361,277 @@ function HistoricalRateCalc({ currentRate }) {
   )
 }
 
+// 6 — Salary Converter
+function SalaryConverter({ rate }) {
+  const [usdSalary, setUsdSalary] = useState(60000)
+  const [cnyInput,  setCnyInput]  = useState('')
+  const [mode,      setMode]      = useState('usd') // 'usd' or 'cny'
+  const r = rate || 7.2450
+
+  const cnyEquiv  = usdSalary * r
+  const usdEquiv  = cnyInput ? cnyInput / r : 0
+
+  const CITIES = [
+    { city:'Beijing',   avgCNY:25000, label:'Beijing' },
+    { city:'Shanghai',  avgCNY:28000, label:'Shanghai' },
+    { city:'Shenzhen',  avgCNY:24000, label:'Shenzhen' },
+    { city:'Chengdu',   avgCNY:14000, label:'Chengdu' },
+    { city:'Tier 3 City', avgCNY:8000, label:'Tier 3 City' },
+  ]
+
+  const activeSalaryUSD = mode==='usd' ? usdSalary : usdEquiv
+  const activeSalaryCNY = mode==='usd' ? cnyEquiv : (cnyInput||0)
+
+  return (
+    <div>
+      <div style={{ display:'flex', gap:8, marginBottom:24 }}>
+        {[['usd','Enter USD Salary'],['cny','Enter CNY Salary']].map(([m,l])=>(
+          <button key={m} onClick={()=>setMode(m)} style={{
+            flex:1, padding:'10px', borderRadius:8,
+            background:mode===m?C.gold:'transparent',
+            color:mode===m?'#080c14':C.textDim,
+            border:`1px solid ${mode===m?C.gold:C.border}`,
+            fontFamily:F.mono, fontSize:'0.74rem', letterSpacing:'0.08em', textTransform:'uppercase',
+            transition:'all 0.15s',
+          }}>{l}</button>
+        ))}
+      </div>
+
+      {mode==='usd' ? (
+        <div style={{ marginBottom:24 }}>
+          <SliderRow label="Annual USD Salary" value={usdSalary} min={20000} max={300000} step={1000}
+            display={`$${usdSalary.toLocaleString()}`} onChange={setUsdSalary} />
+        </div>
+      ) : (
+        <div style={{ marginBottom:24 }}>
+          <div style={{ marginBottom:9 }}><Label>Annual CNY Salary</Label></div>
+          <div style={{ position:'relative' }}>
+            <span style={{ position:'absolute',left:13,top:'50%',transform:'translateY(-50%)',fontFamily:F.mono,color:C.textDim }}>¥</span>
+            <input type="number" value={cnyInput} onChange={e=>setCnyInput(e.target.value)} style={{paddingLeft:27}} placeholder="e.g. 180000" />
+          </div>
+        </div>
+      )}
+
+      <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:14, marginBottom:28 }}>
+        <BigStat label="USD / Year"    value={`$${addCommas(activeSalaryUSD)}`} accent />
+        <BigStat label="CNY / Year"    value={`¥${addCommas(activeSalaryCNY)}`} />
+        <BigStat label="USD / Month"   value={`$${addCommas(activeSalaryUSD/12)}`} />
+        <BigStat label="CNY / Month"   value={`¥${addCommas(activeSalaryCNY/12)}`} />
+      </div>
+
+      <div style={{ marginBottom:12 }}><Label>How Does It Compare to Local Salaries?</Label></div>
+      <div style={{ display:'flex', flexDirection:'column', gap:8 }}>
+        {CITIES.map(c => {
+          const ratio    = activeSalaryCNY / 12 / c.avgCNY
+          const pct      = Math.min(ratio, 2.5)
+          const aboveBelow = ratio >= 1
+          return (
+            <div key={c.city} style={{
+              background:C.cardDeep, border:`1px solid ${C.border}`, borderRadius:9, padding:'12px 16px',
+            }}>
+              <div style={{ display:'flex', justifyContent:'space-between', marginBottom:6 }}>
+                <span style={{ fontFamily:F.body, color:C.text, fontSize:'0.98rem' }}>{c.label}</span>
+                <Mono size="0.82rem" color={aboveBelow?C.success:C.warning}>
+                  {ratio>=1?`${ratio.toFixed(1)}× avg`:`${(ratio*100).toFixed(0)}% of avg`}
+                </Mono>
+              </div>
+              <div style={{ height:5, background:C.border, borderRadius:3, overflow:'hidden' }}>
+                <div style={{
+                  width:`${Math.min(pct/2.5*100,100)}%`, height:'100%',
+                  background:aboveBelow?C.success:C.warning, borderRadius:3, transition:'width 0.4s ease',
+                }} />
+              </div>
+              <div style={{ marginTop:4, fontFamily:F.mono, fontSize:'0.68rem', color:C.textMuted }}>
+                Avg local salary: ¥{addCommas(c.avgCNY)}/mo (≈${addCommas(c.avgCNY/r)}/mo)
+              </div>
+            </div>
+          )
+        })}
+      </div>
+
+      <AffiliateCTA
+        heading="Working or Living in China? Get Paid in USD, Spend in CNY"
+        text="Wise lets expats and remote workers receive USD salary and convert to CNY at the mid-market rate — saving hundreds compared to bank wire transfers."
+        links={[
+          { label:'Open Wise Account', url:'https://wise.com' },
+          { label:'Try Remitly', url:'https://remitly.com' },
+        ]}
+      />
+    </div>
+  )
+}
+
+// 7 — Import Cost Calculator
+function ImportCostCalc({ rate }) {
+  const [orderUSD,    setOrderUSD]    = useState(5000)
+  const [units,       setUnits]       = useState(500)
+  const [shippingUSD, setShippingUSD] = useState(400)
+  const [dutyPct,     setDutyPct]     = useState(7)
+  const r = rate || 7.2450
+
+  const subtotal    = orderUSD
+  const duty        = (orderUSD * dutyPct) / 100
+  const totalUSD    = subtotal + shippingUSD + duty
+  const totalCNY    = totalUSD * r
+  const perUnitUSD  = totalUSD / units
+  const perUnitCNY  = perUnitUSD * r
+
+  return (
+    <div>
+      <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:16 }}>
+        <div>
+          <SliderRow label="Order Value (USD)" value={orderUSD} min={500} max={100000} step={500}
+            display={`$${orderUSD.toLocaleString()}`} onChange={setOrderUSD} />
+        </div>
+        <div>
+          <SliderRow label="Number of Units" value={units} min={1} max={10000} step={1}
+            display={units.toLocaleString()} onChange={setUnits} />
+        </div>
+      </div>
+      <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:16 }}>
+        <div>
+          <SliderRow label="Shipping Cost (USD)" value={shippingUSD} min={0} max={10000} step={50}
+            display={`$${shippingUSD.toLocaleString()}`} onChange={setShippingUSD} />
+        </div>
+        <div>
+          <SliderRow label="Import Duty %" value={dutyPct} min={0} max={25} step={0.5}
+            display={`${dutyPct}%`} onChange={setDutyPct} />
+        </div>
+      </div>
+
+      <div style={{ display:'grid', gridTemplateColumns:'repeat(3,1fr)', gap:14, marginBottom:24 }}>
+        <BigStat label="Total Cost USD" value={`$${addCommas(totalUSD)}`} accent />
+        <BigStat label="Total Cost CNY" value={`¥${addCommas(totalCNY)}`} />
+        <BigStat label="Cost Per Unit"  value={`$${perUnitUSD.toFixed(2)}`} />
+      </div>
+
+      <div style={{ background:C.cardDeep, border:`1px solid ${C.border}`, borderRadius:10, padding:'20px 22px', marginBottom:18 }}>
+        <div style={{ marginBottom:14 }}><Label>Cost Breakdown</Label></div>
+        {[
+          { label:'Product Cost',  usd:orderUSD,    pct:(orderUSD/totalUSD*100).toFixed(1),    color:C.gold },
+          { label:'Shipping',      usd:shippingUSD, pct:(shippingUSD/totalUSD*100).toFixed(1), color:C.blue },
+          { label:'Import Duty',   usd:duty,        pct:(duty/totalUSD*100).toFixed(1),        color:C.warning },
+        ].map(row => (
+          <div key={row.label} style={{ marginBottom:12 }}>
+            <div style={{ display:'flex', justifyContent:'space-between', marginBottom:5 }}>
+              <span style={{ fontFamily:F.body, color:C.textDim, fontSize:'0.96rem' }}>{row.label}</span>
+              <div style={{ textAlign:'right' }}>
+                <Mono size="0.82rem" color={row.color}>${addCommas(row.usd)} · {row.pct}%</Mono>
+              </div>
+            </div>
+            <div style={{ height:5, background:C.border, borderRadius:3, overflow:'hidden' }}>
+              <div style={{ width:`${row.pct}%`, height:'100%', background:row.color, borderRadius:3, transition:'width 0.4s ease' }} />
+            </div>
+          </div>
+        ))}
+        <div style={{ borderTop:`1px solid ${C.border}`, paddingTop:14, marginTop:6,
+          display:'flex', justifyContent:'space-between', alignItems:'center' }}>
+          <span style={{ fontFamily:F.display, fontSize:'0.9rem', color:C.text, letterSpacing:'0.04em' }}>Per Unit (CNY)</span>
+          <Mono size="1.1rem" color={C.gold} weight={600}>¥{perUnitCNY.toFixed(2)}</Mono>
+        </div>
+      </div>
+
+      <AffiliateCTA
+        heading="Paying Chinese Suppliers? Save on Each Transfer"
+        text="Stop losing 3–5% on every supplier payment to bank wire fees. Wise Business lets you pay Chinese factories in CNY at the mid-market rate with transparent low fees."
+        links={[
+          { label:'Wise Business', url:'https://wise.com' },
+          { label:'Western Union Business', url:'https://westernunion.com' },
+        ]}
+      />
+    </div>
+  )
+}
+
+// 8 — How Much to Bring Calculator
+function HowMuchToBring({ rate }) {
+  const [days,    setDays]    = useState(14)
+  const [style,   setStyle]   = useState('mid')
+  const [city,    setCity]    = useState('beijing')
+  const r = rate || 7.2450
+
+  const STYLES = {
+    budget: { daily:70,  label:'Budget',    cardPct:0.60 },
+    mid:    { daily:120, label:'Mid-Range', cardPct:0.75 },
+    luxury: { daily:300, label:'Luxury',    cardPct:0.85 },
+  }
+  const CITY_MULT = {
+    beijing:  1.00, shanghai:1.15, chengdu:0.85,
+    guangzhou:0.95, xian:0.80, shenzhen:1.05,
+  }
+
+  const s         = STYLES[style]
+  const mult      = CITY_MULT[city]
+  const dailyUSD  = s.daily * mult
+  const totalUSD  = dailyUSD * days
+  const cardUSD   = totalUSD * s.cardPct
+  const cashUSD   = totalUSD * (1 - s.cardPct)
+  const cashCNY   = cashUSD * r
+  const buffer    = totalUSD * 0.12
+  const grandTotal = totalUSD + buffer
+
+  return (
+    <div>
+      <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:16 }}>
+        <SelectRow label="Travel Style" value={style}
+          options={Object.entries(STYLES).map(([k,v])=>({value:k,label:v.label}))} onChange={setStyle} />
+        <SelectRow label="Primary City" value={city}
+          options={[
+            {value:'beijing',label:'Beijing'},{value:'shanghai',label:'Shanghai'},
+            {value:'chengdu',label:'Chengdu'},{value:'guangzhou',label:'Guangzhou'},
+            {value:'xian',label:"Xi'an"},{value:'shenzhen',label:'Shenzhen'},
+          ]} onChange={setCity} />
+      </div>
+      <SliderRow label="Trip Length" value={days} min={3} max={60} step={1}
+        display={`${days} days`} onChange={setDays} />
+
+      <div style={{ display:'grid', gridTemplateColumns:'repeat(3,1fr)', gap:14, marginBottom:26 }}>
+        <BigStat label="Daily Budget"   value={`$${dailyUSD.toFixed(0)}`} />
+        <BigStat label="Trip Total"     value={`$${addCommas(totalUSD)}`} accent />
+        <BigStat label="+12% Buffer"    value={`$${addCommas(grandTotal)}`} />
+      </div>
+
+      <div style={{ background:C.cardDeep, border:`1px solid ${C.goldDim}`, borderRadius:10, padding:'22px', marginBottom:18 }}>
+        <div style={{ marginBottom:16 }}><Label color={C.gold}>Recommended Money Split</Label></div>
+
+        <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:16 }}>
+          <div style={{ background:C.card, border:`1px solid ${C.border}`, borderRadius:9, padding:'16px' }}>
+            <div style={{ marginBottom:6 }}><Label color={C.blue}>📱 Card / App Payments</Label></div>
+            <div style={{ fontFamily:F.mono, fontSize:'1.6rem', color:C.blue, fontWeight:600 }}>${addCommas(cardUSD)}</div>
+            <p style={{ color:C.textMuted, fontSize:'0.82rem', marginTop:6, lineHeight:1.5 }}>
+              WeChat Pay + no-FTF credit card for hotels, restaurants, transport
+            </p>
+          </div>
+          <div style={{ background:C.card, border:`1px solid ${C.border}`, borderRadius:9, padding:'16px' }}>
+            <div style={{ marginBottom:6 }}><Label color={C.gold}>💴 CNY Cash</Label></div>
+            <div style={{ fontFamily:F.mono, fontSize:'1.6rem', color:C.gold, fontWeight:600 }}>¥{addCommas(cashCNY)}</div>
+            <div style={{ fontFamily:F.mono, fontSize:'0.78rem', color:C.textMuted, marginTop:2 }}>(≈${addCommas(cashUSD)} USD)</div>
+            <p style={{ color:C.textMuted, fontSize:'0.82rem', marginTop:6, lineHeight:1.5 }}>
+              Markets, small vendors, rural areas, backup cash
+            </p>
+          </div>
+        </div>
+
+        <div style={{ marginTop:16, padding:'12px 16px', background:'rgba(212,168,83,0.05)', border:`1px solid ${C.goldDim}`, borderRadius:8 }}>
+          <Label color={C.gold}>Tip</Label>
+          <p style={{ color:C.textDim, fontSize:'0.9rem', marginTop:4, lineHeight:1.6 }}>
+            Withdraw CNY cash in China from a Bank of China ATM using a Schwab debit card — zero fees, best rate. Don't exchange at US banks or airport kiosks.
+          </p>
+        </div>
+      </div>
+
+      <AffiliateCTA
+        heading="Get Your CNY at the Best Rate"
+        text="Withdraw Yuan fee-free from Chinese ATMs with a Schwab card, or send money ahead to a Chinese account via Wise before you leave."
+        links={[
+          { label:'Send via Wise',   url:'https://wise.com' },
+          { label:'Try Remitly',     url:'https://remitly.com' },
+        ]}
+      />
+    </div>
+  )
+}
+
 /* ══════════════════════════════════════════════════════════════════════════
    PAGES
 ══════════════════════════════════════════════════════════════════════════ */
@@ -1232,7 +1793,10 @@ function ToolsPage({ rate, loading, updatedAt }) {
     { id:'converter',  label:'Live Converter' },
     { id:'costliving', label:'Cost of Living' },
     { id:'travel',     label:'Travel Budget' },
+    { id:'howmuch',    label:'How Much to Bring' },
     { id:'sendmoney',  label:'Send Money' },
+    { id:'salary',     label:'Salary Converter' },
+    { id:'import',     label:'Import Costs' },
     { id:'historical', label:'Historical Rates' },
   ]
 
@@ -1243,7 +1807,7 @@ function ToolsPage({ rate, loading, updatedAt }) {
         <h1 style={{ fontFamily:F.display, fontSize:'2rem', color:C.text, letterSpacing:'0.08em', marginBottom:8 }}>
           USD ⇄ CNY Calculators
         </h1>
-        <p style={{ color:C.textDim, fontSize:'1.05rem' }}>Five tools for every USD to Chinese Yuan calculation you'll need.</p>
+        <p style={{ color:C.textDim, fontSize:'1.05rem' }}>Eight free tools for every USD to Chinese Yuan calculation you'll need.</p>
       </div>
 
       {/* Tabs */}
@@ -1260,10 +1824,13 @@ function ToolsPage({ rate, loading, updatedAt }) {
       </div>
 
       <Card>
-        {tab==='converter'  && <LiveConverter  rate={rate} loading={loading} updatedAt={updatedAt} />}
-        {tab==='costliving' && <CostOfLivingCalc rate={rate} />}
-        {tab==='travel'     && <TravelBudgetCalc rate={rate} />}
-        {tab==='sendmoney'  && <SendMoneyComp   rate={rate} />}
+        {tab==='converter'  && <LiveConverter      rate={rate} loading={loading} updatedAt={updatedAt} />}
+        {tab==='costliving' && <CostOfLivingCalc   rate={rate} />}
+        {tab==='travel'     && <TravelBudgetCalc   rate={rate} />}
+        {tab==='howmuch'    && <HowMuchToBring     rate={rate} />}
+        {tab==='sendmoney'  && <SendMoneyComp      rate={rate} />}
+        {tab==='salary'     && <SalaryConverter    rate={rate} />}
+        {tab==='import'     && <ImportCostCalc     rate={rate} />}
         {tab==='historical' && <HistoricalRateCalc currentRate={rate} />}
       </Card>
     </main>
