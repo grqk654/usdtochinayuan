@@ -1948,6 +1948,8 @@ function ArticlePage({ articleId, setPage, rate }) {
 /* ══════════════════════════════════════════════════════════════════════════
    APP ROOT
 ══════════════════════════════════════════════════════════════════════════ */
+const urlToPage = (pathname) => pathname.replace(/^\//, '') || 'home'
+const pageToUrl = (page) => page === 'home' ? '/' : '/' + page
 export default function App() {
   const [page, setPage]              = useState('home')
   const { rate, loading, updatedAt } = useLiveRate()
